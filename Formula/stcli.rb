@@ -1,17 +1,17 @@
 class Stcli < Formula
   desc "Operate network equipment in plain English over your own SSH session"
   homepage "https://github.com/super-trace/stcli-releases"
-  url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.16.3/stcli_2026.11.16.3_darwin_universal.tar.gz"
-  sha256 "2df597fb2adeb7e501d1868be4faef77ec049cbc44a41a0d5db62d28e8f5d900"
+  url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.18/stcli_2026.11.18_darwin_universal.tar.gz"
+  sha256 "cb06ce43ab769d7742aebd4c03ee649606d0954b9d9f94bda2cbcd97fc4eda24"
 
   on_linux do
     on_intel do
-      url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.16.3/stcli_2026.11.16.3_linux_amd64.tar.gz"
-      sha256 "7698f34d85f8aa6499967af98e2813d908324de40fdfa5efb3a1f3ff02b58787"
+      url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.18/stcli_2026.11.18_linux_amd64.tar.gz"
+      sha256 "6dee46d6ee11be977d89120a19d4c03c4c9f4737cdfcc0db8b4dfbcdf56899a5"
     end
     on_arm do
-      url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.16.3/stcli_2026.11.16.3_linux_arm64.tar.gz"
-      sha256 "8907636aa0fd3f73669854ecade26e5bfe6093b8de62611cc2188fc13bb55a7e"
+      url "https://github.com/super-trace/stcli-releases/releases/download/v2026.11.18/stcli_2026.11.18_linux_arm64.tar.gz"
+      sha256 "dd871c4a84606d26d875998135ee41592aef4406dec28828df7b0663cd9dfb06"
     end
   end
 
